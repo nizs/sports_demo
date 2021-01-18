@@ -1,0 +1,21 @@
+
+
+body > div.legends > div > div.legends-sec-2{
+	padding-top: 80px;
+}
+
+
+body > div.legends > div > p:nth-child(5){
+	margin-top: 40px;
+}
+
+body > div.legends > div > p:nth-child(4){
+	padding-bottom: 60px;
+}
+body > div.legends > div > p:nth-child(3){
+	padding-bottom: 20px;
+}
+
+body > div.legends > div > p{
+	color: #636e72;
+}

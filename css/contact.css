@@ -1,0 +1,120 @@
+.contact-sign-up{
+	overflow: hidden;
+	padding: 100px 0px;
+}
+
+.contact-sign-up .form-left{
+	width: 45%;
+	float: left;
+}
+
+.contact-sign-up .form-left input{
+	width:90%;
+	display: block;
+	margin-bottom: 15px;
+	padding: 9px 16px;
+	border-radius: 7px;
+	border: 1px solid #e8e8e8;
+}
+
+body > div.contact-sign-up > div > div.form-left > input[type=text]:nth-child(4){
+	padding: 45px 16px;
+}
+
+body > div.contact-sign-up > div > div.form-left > button{
+	margin-top: 0px;
+    padding: 13px 18px;
+    width: 35%;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #f1c40f;
+    border: 1px solid #f1c40f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+body > div.contact-sign-up > div > div.form-left > button:hover{
+	background-color: transparent;
+	color: #f1c40f;
+	transition: all 0.3s ease; 
+}
+
+
+.contact-sign-up .form-right{
+	width: 47%;
+	float: right;
+}
+
+
+.contact-sign-up .form-right .contact{
+	padding-top: 0px;
+}
+
+.contact-sign-up .form-right .contact i{
+	margin-bottom: 20px;
+	display: block;
+	color: #f1c40f;
+}
+
+.contact-sign-up .form-right .contact i span{
+	font-size: 15px;
+    font-weight: 400;
+    color: #636e72;
+	margin-left: 15px;
+}
+
+.contact-sign-up .form-right p{
+	margin-top: 25px;
+	color: #636e72;
+	font-size: 16px;
+	
+}
+
+
+.contact-sign-up .form-right .newletter-sign-up .newsletter{
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.contact-sign-up .form-right .newletter-sign-up .newsletter h6{
+	font-size: 22px;
+	margin-left: 1px;
+	margin-bottom: 0px
+}
+
+.contact-sign-up .form-right .newletter-sign-up .newsletter input{
+    margin-top: 25px;
+    padding: 7px 18px;
+    width: 63%;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 1px solid #e4dddd;
+	margin-right: 6px;
+}
+
+.contact-sign-up .form-right .newletter-sign-up .newsletter button{
+	margin-top: 25px;
+    padding: 7px 18px;
+    width: 35%;
+	font-size: 16px;
+    border-radius: 7px;
+	background-color: #f1c40f;
+	border: 1px solid #f1c40f;
+	color: #fff;
+	font-size: 16px;
+    font-weight: 600;
+}
+
+.contact-sign-up .form-right .newletter-sign-up .newsletter button:hover{
+	background-color: #fff;
+	color: #f1c40f;
+	transition: all 0.3s ease;
+}
+
+/* location */
+
+body > div.location > iframe{
+	width: 100%;
+}

@@ -1,0 +1,210 @@
+.row{
+	display: flex;
+	width: 100%:
+}
+
+.row::after{
+	display: block;
+	clear: both;
+	content: "";
+}
+{
+.col-1 {width: 8.33%};
+.col-2{width: 16.66%};
+.col-3{width: 25%};
+.col-4{width: 33.33%};
+.col-5{width: 41.66%};
+.col-6{width: 50%};
+.col-7{width: 58.33%};
+.col-8{width: 66.66%};
+.col-9{width: 75%};
+.col-10{width: 83.33%};
+.col-11{width: 91.66%};
+.col-12{width: 100%};
+
+}
+
+*{
+	box-sizing: border-box;
+}
+
+[class*="col-"]{
+	float: left;
+	overflow: hidden;
+}
+
+/* responsive */
+@media screen and (max-width: 1024px) {
+	#carouselExampleCaptions > div > div.carousel-item > img{
+		height: 100%;
+	}
+	
+	body > div.matches-fixtures > div > div.section-3 > div > div > div.section-3-news{
+		width: 50%;
+	}
+	
+	body > div.matches-fixtures > div > div.section-3 > div > div > div.section-3-result{
+		width: 50%;
+	}
+	
+	body > div.legends > div > div.legends-sec-3{
+		margin: 0px -24px;
+	}
+	
+	body > div.legends > div > div.legends-sec-3 > div > div{
+		width: 217px !important;
+	}
+	
+	body > div.vlog-videos > div > div.container > div.vlog-videos-sec-2 > div > div > ul > li.calendar{
+		    margin-right: 8px;
+	}
+	
+	body > div.vlog-videos > div > div.container > div.vlog-videos-sec-2 > div > div > ul > li:nth-child(2){
+		margin-right: -9px;
+	}
+	
+	body > div.vlog-videos > div > div.container > div.vlog-videos-sec-2 > div > div > ul > li.post-btn > button{
+		font-size: 10px;
+		margin-right: 20px;
+	}
+	
+	body > div.vlog-videos > div > div.container > div.vlog-videos-sec-2 > div:nth-child(1){
+		margin-right: 46px;
+	}
+	body > div.vlog-videos > div > div.container > div.vlog-videos-sec-2 > div:nth-child(2){
+		margin-right: 46px;
+	}
+	
+	body > div.vlog-videos > div > div.container > div.vlog-videos-sec-2 > div:nth-child(2) > h2{
+		width: 100%;
+	}
+	
+	body > div.vlog-videos > div > div.container > div.vlog-videos-sec-2 > div > button{
+		top: 19%;
+		left: 126%;
+		font-size: 12px;
+	}
+	
+	body > div.vlog-videos > div > div.vlog-videos-sec-3 > div > div.container > div:nth-child(1){
+		margin-right: 46px;
+	}
+	body > div.vlog-videos > div > div.vlog-videos-sec-3 > div > div.container > div:nth-child(2){
+		margin-right: 46px;
+	}
+	
+	body > div.vlog-videos > div > div.vlog-videos-sec-3 > div > div.container > div > div > ul > li.calendar{
+		margin-right: 8px;
+	}
+	
+	body > div.vlog-videos > div > div.vlog-videos-sec-3 > div > div.container > div > div > ul > li:nth-child(2){
+		margin-right: -9px;
+	}
+	
+	body > div.vlog-videos > div > div.vlog-videos-sec-3 > div > div.container > div > div > ul > li.post-btn > button{
+		font-size: 10px;
+		margin-right: 20px;
+	}
+	
+	body > div.vlog-videos > div > div.vlog-videos-sec-3 > div > div.container > div:nth-child(2) > h2{
+		width: 100%;
+	}
+	
+	body > div.vlog-videos > div > div.vlog-videos-sec-3 > div > div.container > div > button{
+		top: 19%;
+		left: 126%;
+		font-size: 12px;
+	}
+	body > div.last-bottom > div > div > div.teams > div.teams-image-wrapper > a > div{
+		border: 4px solid #f1c40f94;
+		margin-right: 0px;
+	}
+	.last-bottom .last-bottom-wrapper .teams .teams-image-wrapper .teams-image{
+		border: 4px solid #f1c40f87;
+		margin-left: 0px;
+	}	
+	
+	body > div.last-bottom > div > div > div.about-contact > div.contact > i > span{
+		    font-size: 13px;
+	}
+	
+	.last-bottom .last-bottom-wrapper .latest-posts .footer-post h6{
+		margin-top: 1px;
+	}
+	
+	body > div.last-bottom > div > div > div.latest-posts > div:nth-child(4) > div > i{
+		margin-top: 25px;
+	}
+	
+	.last-bottom .last-bottom-wrapper .latest-posts .footer-post{
+		margin-bottom: 37px;
+}
+
+@media screen and (min-width: 768px){
+	body .container{
+		max-width: 960px;
+	}
+}
+
+@media screen and (min-width: 425px){
+	body .container{
+		max-width: 960px;
+	}
+	
+	.brand-slider {
+		height: 400px;
+	}	
+	
+	.brand-slider .brand-box{
+		margin-top: 145px;
+	}	
+	
+	body > div.brand-slider > div > div > div > div:nth-child(1) > div{
+		width: 240px;
+		height: 170px;
+		padding: 50px 86px;	
+	}
+	body > div.brand-slider > div > div > div > div:nth-child(2) > div{
+		width: 240px;
+		height: 170px;
+		padding: 50px 86px;
+		margin-left: 40px;
+	}
+	body > div.brand-slider > div > div > div > div:nth-child(3) > div{
+		width: 240px;
+		height: 170px;
+		padding: 50px 86px;	
+		float: right;
+		margin-right: -13px;
+		box-sizing: border-box;	
+		
+	}
+	body > div.brand-slider > div > div > div > div:nth-child(4) > div{
+		display: none;
+		overflow: visible;
+		
+	}body > div.brand-slider > div > div > div > div:nth-child(5) > div{
+		display: none;
+	}body > div.brand-slider > div > div > div > div:nth-child(6) > div{
+		display: none;
+	}
+	body > div.brand-slider > div > div > div > div{
+		flex: none;
+		max-width: 32.666667%;
+	}
+	
+	body > div.brand-slider > div > div > div{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	body > div.matches-fixtures > div > div.section-1 > h1{
+		font-size: 4.5rem;
+	}
+	body > div.matches-fixtures > div > div.section-1 > p{
+		font-size: 2rem;
+	}
+	body > div.matches-fixtures > div > div.section-2 > button.btn.active{
+		padding: 42px 90px;
+		font-size: 35px;
+	}
+	
+}
